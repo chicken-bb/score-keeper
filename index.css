@@ -1,0 +1,81 @@
+
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #1E2449;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('./CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: #1E2449;
+    color: white;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.gameControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;
+}
+
+.counterWrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreWrapper {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: black;
+    color: #EC5870;
+    border-radius: 4px;
+    padding-top: 0.75rem;
+    margin-top: 1rem;
+}
+
+#homeScore, #guestScore {
+    text-align: center;
+    font-size: 5rem;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #1E2449;
+    border: 2px solid white;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.buttonWrapper {
+    margin-top: 1rem;
+}
